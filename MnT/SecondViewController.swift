@@ -18,6 +18,9 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var date: UITextField!
     @IBOutlet weak var interests: UITextField!
     
+    @IBOutlet weak var submitButton: UIButton!
+    
+    @IBOutlet weak var textBox: UITextView!
     var firstNameArray = [String]();
     var lastNameArray = [String]();
     var majorArray = [String]();
@@ -30,6 +33,7 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        textBox.hidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -61,10 +65,35 @@ class SecondViewController: UIViewController {
     }
 
     @IBAction func previewAction(sender: AnyObject) {
-        for element in entryArray {
-            println(element);
+        //for element in entryArray {
+          //  println(element);
+        //}
+        if(firstName.hidden != true){
+            firstName.hidden = true
+            lastName.hidden = true
+            major.hidden = true
+            phoneNumber.hidden = true
+            email.hidden = true
+            date.hidden = true
+            interests.hidden = true
+            submitButton.hidden = true
+            textBox.hidden = false
+            
         }
+        else {
+            firstName.hidden = false
+            lastName.hidden = false
+            major.hidden = false
+            phoneNumber.hidden = false
+            email.hidden = false
+            date.hidden = false
+            interests.hidden = false
+            submitButton.hidden = false
+            textBox.hidden = true        }
+        //TODO: add display text field
     }
+    
+    
 
 }
 

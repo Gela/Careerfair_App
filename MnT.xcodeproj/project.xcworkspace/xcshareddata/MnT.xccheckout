@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C38BE05-CBE5-4273-8A46-36C53B0B5793</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MnT</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AF219EEF27A2F23AB697025705520A1CABE7684F</key>
+		<string>https://github.com/Gela/MT_Careerfair.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MnT.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AF219EEF27A2F23AB697025705520A1CABE7684F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Gela/MT_Careerfair.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AF219EEF27A2F23AB697025705520A1CABE7684F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AF219EEF27A2F23AB697025705520A1CABE7684F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MT_Careerfair</string>
+		</dict>
+	</array>
+</dict>
+</plist>
